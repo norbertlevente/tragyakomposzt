@@ -10,7 +10,7 @@ Azóta ezt csinálom. És sokkal jobban szeretem, mint az irodát.
 
 - **Agrármérnöki diplomám van.** Tudom, mit jelent az NPK, és azt is, miért nem csak ez a fontos.
 - **20 évig dolgoztam egy nagy multi agrárcégnél.** Agronómusként kezdtem, aztán üzemvezető lettem, végül termelési igazgató. Vetőmagot, növényvédőt, technológiát adtunk el gazdáknak.
-- **2016-ban elegem lett.** Pontosabban: rájöttem, hogy amit ott csináltunk, az nem ugyanaz, mint amit otthon szerettem volna csinálni. Otthagytam a multit, elindítottam a saját farmgazdaságomat, hozzá 12 angus tehenet, és elkezdtem a saját családi gazdaságomat.
+- **2016-ban elegem lett.** Pontosabban: rájöttem, hogy amit ott csináltunk, az nem ugyanaz, mint amit otthon szerettem volna csinálni. Otthagytam a multit, elindítottam a saját farmgazdaságomat.
 - **Tíz év alatt felépítettünk valamit, amire büszke vagyok.** 22 angus és wagyu marha, 20+ dorper anyajuh, sok bárány, 50-150 csirke évszaktól függően, időnként kacsák, egy komondor és egy komondor-kuvasz keverék kutya.
 - **Körülbelül 80 hektáron gazdálkodunk.** Bio kukoricát termesztünk étkezésre és takarmányra, mellette búzát, bükkönyt és egy csomó más kultúrát is.
 - **Minden földünk bio-tanúsított.** Semmilyen vegyszert nem használunk, sehol.
