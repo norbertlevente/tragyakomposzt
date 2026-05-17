@@ -56,7 +56,7 @@ Ez a másik nagy különbség, ne ugord át, mert fontos.
 
 A legtöbb kereskedelmi komposzt iparszerű állattartásból származik. Olyan hizlalótelepekről, ahol a marhák betonon állnak, antibiotikumot kapnak, és kukoricaalapú takarmányt esznek. A trágyájuk is ilyen lesz.
 
-Az állat azt szarja, amit eszik. Aki ezt elfelejti, annak jár a Nobel-díj.
+Az állat azt szarja, amit eszik. Egyszerű, mégsem szokott eszünkbe jutni, amikor komposztot veszünk.
 
 A mi angus és wagyu marháink a saját legelőinken nő fel. Füvet esznek. Ha be kell fejezni a hizlalást, saját bio gabonát kapnak. Antibiotikum nincs. Hormon nincs. GMO nincs.
 
@@ -84,8 +84,6 @@ Amit kapsz:
 4. termofil szakaszon átesett anyag, amelyben a gyommagvak nagy része elpusztult,
 5. antibiotikum- és vegyszermentes forrás, bio-tanúsított gazdaságból,
 6. erdei avar illat. Ha mást érzel, hozd vissza.
-
-**Megjegyzés:** később vermikomposztot is szeretnénk árulni. Ez a gilisztákkal készített, prémium változat. Ha érdekel, iratkozz fel, és elsőként szólunk.
 
 **Ár:** 19.000 Ft / m³
 
