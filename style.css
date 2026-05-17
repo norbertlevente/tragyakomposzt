@@ -211,6 +211,15 @@ hr {
   margin-bottom: 1rem;
 }
 
+.inline-video {
+  display: block;
+  width: 100%;
+  max-width: 480px;
+  margin: 1rem auto 0;
+  border-radius: 8px;
+  background: #111;
+}
+
 .process-list span,
 .next-steps span,
 .benefits span,
@@ -328,13 +337,15 @@ hr {
   transform: translateY(-50%) translateX(0) scale(1);
 }
 
-.hov-pop img {
+.hov-pop img,
+.hov-pop video {
   display: block;
   width: 100%;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 18px 50px -12px rgba(0, 0, 0, 0.40),
               0 6px 16px -6px rgba(0, 0, 0, 0.18);
+  background: #111;
 }
 
 /* Pair variant: one popover left, one right (for the green source line) */
