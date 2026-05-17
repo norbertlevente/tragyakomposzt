@@ -126,13 +126,13 @@
         <p class="price-label">Ár:</p>
         <p class="product-price">19.000 Ft / m³</p>
 
-        <div class="quantity-row" aria-label="Mennyiség">
-          <button type="button">−</button>
-          <span>1</span>
-          <button type="button">+</button>
+        <div class="quantity-row" aria-label="Mennyiség (m³)">
+          <button type="button" id="qty-minus" aria-label="Csökkentés">−</button>
+          <span id="qty-display" aria-live="polite">1</span>
+          <button type="button" id="qty-plus" aria-label="Növelés">+</button>
         </div>
 
-        <a class="buy-button" href="mailto:szarvasimarha@gmail.com?subject=Komposzt%20rendel%C3%A9s&body=Szia!%0A%0ASzeretn%C3%A9k%20rendelni%20a%20komposztotokb%C3%B3l.%0A%0AMennyis%C3%A9g%3A%20___%20m%C2%B3%0ASz%C3%A1ll%C3%ADt%C3%A1si%20c%C3%ADm%20vagy%20szem%C3%A9lyes%20%C3%A1tv%C3%A9tel%3A%20___%0ATelefonsz%C3%A1mom%3A%20___%0A%0AK%C3%B6sz%C3%B6n%C3%B6m!">Rendelek</a>
+        <a class="buy-button order-link" href="mailto:szarvasimarha@gmail.com">Rendelek</a>
       </div>
     </section>
 
@@ -188,7 +188,7 @@
 
     <section class="closing" id="cim">
       <div class="cta-row">
-        <a href="mailto:szarvasimarha@gmail.com?subject=Komposzt%20rendel%C3%A9s&body=Szia!%0A%0ASzeretn%C3%A9k%20rendelni%20a%20komposztotokb%C3%B3l.%0A%0AMennyis%C3%A9g%3A%20___%20m%C2%B3%0ASz%C3%A1ll%C3%ADt%C3%A1si%20c%C3%ADm%20vagy%20szem%C3%A9lyes%20%C3%A1tv%C3%A9tel%3A%20___%0ATelefonsz%C3%A1mom%3A%20___%0A%0AK%C3%B6sz%C3%B6n%C3%B6m!" class="btn btn-primary">Megrendelem</a>
+        <a href="mailto:szarvasimarha@gmail.com" class="btn btn-primary order-link">Megrendelem</a>
       </div>
       <p class="contact-line">📍 5400 Mezőtúr, Felsőrészinyomás 105. &nbsp;|&nbsp; 📞 +36 39 4596 9764</p>
     </section>
@@ -198,5 +198,56 @@
     <p>© 2026, A gazdaság</p>
   </footer>
 
+  <script>
+    (function () {
+      var display = document.getElementById("qty-display");
+      var minus = document.getElementById("qty-minus");
+      var plus = document.getElementById("qty-plus");
+      var orderLinks = document.querySelectorAll(".order-link");
+      if (!display || !minus || !plus) return;
+
+      var qty = 1;
+
+      function buildHref(n) {
+        var body = [
+          "Sziasztok!",
+          "",
+          "Komposztot szeretnék rendelni az alábbiak szerint:",
+          "",
+          "• Mennyiség: " + n + " m³",
+          "• Átvétel: [személyesen Mezőtúron / kérek házhozszállítást]",
+          "• Szállítási cím (ha kell):",
+          "• Mikor lenne jó (pl. jövő szombat délelőtt):",
+          "• Telefonszám, hogy könnyebben elérjetek:",
+          "",
+          "Köszi!",
+        ].join("\n");
+        return (
+          "mailto:szarvasimarha@gmail.com" +
+          "?subject=" +
+          encodeURIComponent("Komposzt rendelés — " + n + " m³") +
+          "&body=" +
+          encodeURIComponent(body)
+        );
+      }
+
+      function set(n) {
+        qty = Math.max(1, Math.min(99, n));
+        display.textContent = qty;
+        var href = buildHref(qty);
+        orderLinks.forEach(function (a) {
+          a.href = href;
+        });
+      }
+
+      minus.addEventListener("click", function () {
+        set(qty - 1);
+      });
+      plus.addEventListener("click", function () {
+        set(qty + 1);
+      });
+      set(1);
+    })();
+  </script>
 </body>
 </html>

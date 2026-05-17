@@ -589,8 +589,8 @@ figcaption {
 
 .quantity-row button,
 .quantity-row span {
-  min-width: 2.25rem;
-  height: 2rem;
+  min-width: 2.5rem;
+  height: 2.25rem;
   display: grid;
   place-items: center;
   border: 0;
@@ -598,6 +598,15 @@ figcaption {
   color: #1a1a1a;
   font: inherit;
 }
+
+.quantity-row button {
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.12s ease;
+}
+
+.quantity-row button:hover { background: #f4f4f4; }
+.quantity-row button:active { background: #e8e8e8; }
 
 .quantity-row span {
   border-left: 1px solid #d8d8d8;

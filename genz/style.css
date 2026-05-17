@@ -630,8 +630,16 @@ figcaption {
   color: var(--ink);
   font: inherit;
   font-weight: 700;
-  cursor: pointer;
 }
+
+.quantity-row button {
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.12s ease;
+}
+
+.quantity-row button:hover { background: var(--yellow); }
+.quantity-row button:active { background: var(--lime); }
 
 .quantity-row span {
   border-left: var(--border);
