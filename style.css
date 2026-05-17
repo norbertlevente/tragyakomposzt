@@ -424,30 +424,53 @@ p:has(.hov),
     transform: translateX(-50%) translateY(0) scale(1);
   }
 
+  /* Pair popovers — anchor to the bottom of the viewport so all four
+     images stay on-screen regardless of where the trigger sits. */
   .hov-pop-left,
   .hov-pop-right {
-    top: calc(100% + 10px);
-    width: 140px;
+    position: fixed;
+    top: auto;
+    bottom: 12px;
+    width: calc(50vw - 14px);
+    max-width: 200px;
+    z-index: 50;
   }
 
   .hov-pop-left {
-    right: 50%;
-    margin-right: 4px;
-    transform: translateX(0) translateY(-6px) scale(0.95);
+    right: auto;
+    left: 8px;
+    margin-right: 0;
+    transform: translateY(8px) scale(0.96);
   }
 
   .hov-pop-right {
-    left: 50%;
-    margin-left: 4px;
-    transform: translateX(0) translateY(-6px) scale(0.95);
+    left: auto;
+    right: 8px;
+    margin-left: 0;
+    transform: translateY(8px) scale(0.96);
   }
 
   .hov:hover .hov-pop-left,
   .hov:focus .hov-pop-left,
   .hov:hover .hov-pop-right,
   .hov:focus .hov-pop-right {
-    transform: translateX(0) translateY(0) scale(1);
+    transform: translateY(0) scale(1);
   }
+
+  .hov-pop-left img,
+  .hov-pop-right img {
+    max-height: 36vh;
+    object-fit: cover;
+  }
+}
+
+/* Dismiss override — added by JS on outside-tap / scroll, hides any
+   open popover regardless of lingering :hover or :focus state. */
+body.dismiss-hovers .hov-pop,
+body.dismiss-hovers .hov-pop-left,
+body.dismiss-hovers .hov-pop-right {
+  opacity: 0 !important;
+  pointer-events: none !important;
 }
 
 /* ---------- Closing ---------- */

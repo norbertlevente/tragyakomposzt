@@ -315,5 +315,43 @@
         <p class="contact-line">5400 Mezőtúr, Felsőrészinyomás 105.</p>
       </section>
     </main>
+
+    <script>
+      (function () {
+        var body = document.body;
+
+        function dismiss() {
+          body.classList.add("dismiss-hovers");
+          if (
+            document.activeElement &&
+            document.activeElement.classList &&
+            document.activeElement.classList.contains("hov")
+          ) {
+            document.activeElement.blur();
+          }
+        }
+        function clearDismiss() {
+          body.classList.remove("dismiss-hovers");
+        }
+
+        document.addEventListener(
+          "click",
+          function (e) {
+            if (!e.target.closest(".hov")) dismiss();
+            else clearDismiss();
+          },
+          true
+        );
+
+        window.addEventListener("scroll", dismiss, { passive: true });
+        window.addEventListener("touchmove", dismiss, { passive: true });
+
+        document.querySelectorAll(".hov").forEach(function (h) {
+          h.addEventListener("mouseenter", clearDismiss);
+          h.addEventListener("focus", clearDismiss);
+          h.addEventListener("touchstart", clearDismiss, { passive: true });
+        });
+      })();
+    </script>
   </body>
 </html>
