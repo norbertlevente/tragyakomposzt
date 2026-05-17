@@ -389,6 +389,12 @@ p:has(.hov),
   border-radius: 10px;
   box-shadow: 0 18px 50px -12px rgba(0, 0, 0, 0.40),
               0 6px 16px -6px rgba(0, 0, 0, 0.18);
+  margin-bottom: 10px;
+}
+
+.hov-pop-left img:last-child,
+.hov-pop-right img:last-child {
+  margin-bottom: 0;
 }
 
 /* Narrow viewport: no room beside the text column.
