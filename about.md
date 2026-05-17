@@ -24,7 +24,7 @@ Egyszerű ok: 22 marha + 20 juh + 100 csirke = sok szar.
 
 Komolyabb ok: ha már egyszer kiderült, hogy a saját trágyánkból olyan komposzt készíthető, ami élőbb, tisztább és tápanyagdúsabb, mint bármi a boltban, akkor miért ne osztanánk meg?
 
-A boltban kapható komposzt nagy része ipari feedlotokból jön. Antibiotikummal kezelt állatok trágyájából. GMO-takarmányról. A miénk bio-tanúsított legelőkről, fűvel etetett állatoktól, saját bio gabonával hizlalva.
+A boltban kapható komposzt nagy része ipari hizlaldákból származik: antibiotikummal kezelt, GMO-takarmányon tartott állatok trágyájából. A miénk bio-tanúsított legelőkről jön, fűvel etetett állatoktól, saját bio gabonával befejezve.
 
 Más a forrás. Más a végeredmény.
 

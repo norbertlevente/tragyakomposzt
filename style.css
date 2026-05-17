@@ -299,7 +299,7 @@ p:has(.hov),
 .hov-red   { text-decoration-color: #d6334a; }
 .hov-green { text-decoration-color: #2ea043; }
 
-/* Inline circular thumbnail — always visible, marks the trigger */
+/* Inline circular thumbnail: always visible, marks the trigger */
 .hov-thumb {
   display: inline-block;
   width: 1.6em;
@@ -324,7 +324,7 @@ p:has(.hov),
               0 4px 12px rgba(0, 0, 0, 0.20);
 }
 
-/* Full image popover — opens to the right of the text BLOCK (paragraph),
+/* Full image popover: opens to the right of the text BLOCK (paragraph),
    in the right margin. Never overlaps the running text. */
 .hov-pop {
   position: absolute;
@@ -399,7 +399,7 @@ p:has(.hov),
 
 /* Narrow viewport: no room beside the text column.
    Re-anchor popovers to the trigger span itself (not the paragraph),
-   shrink them, and let them open below the trigger — overlaying the
+   shrink them, and let them open below the trigger, overlaying the
    running text is fine here, that's the trade-off for small screens. */
 @media (hover: none), (max-width: 1024px) {
   p:has(.hov),

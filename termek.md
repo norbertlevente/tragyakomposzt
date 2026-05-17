@@ -12,7 +12,7 @@ A régi módszer ma is működik. Csak idő kell hozzá. Meg pár olyan dolog, a
 
 ## „Mi a különbség?”
 
-Mindjárt odaérünk. De előbb nézzük meg, mi történik egy komposztkupacban, ha tényleg jól működik minden.
+Mindjárt odaérünk. De előbb nézzük meg, mi történik egy komposztkupacban, ha minden a helyén van.
 
 ![Komposzt hőmérő 65 Celsius fok körül][image-1]
 
@@ -28,7 +28,7 @@ A nitrogént az állatok (trágya, vizelet), a szenet a növények adják.
 
 ### Szalma, fűrészpor, levél, szár.
 
-Ezért nem elég annyi, hogy „rakjunk össze egy kupac trágyát”. Kell mellé szénforrás is. Nálunk ebbe kerül a saját bio szalmánk, a kaszálék, és a környékről beszerzett faforgács is. A pontos arányt nem csak a mérleg mondja meg, hanem a tapasztalat is.
+Egy kupac trágya magában nem komposzt. Szénforrás is kell mellé. Nálunk ez a saját bio szalmánk, a kaszálék, és a környékről beszerzett faforgács. A pontos arányt nem csak a mérleg mondja meg, hanem a tapasztalat is.
 
 ### 60 °C. Ide kell felmennie.
 
@@ -36,7 +36,7 @@ Ha jól raktuk össze, a kupac belseje pár napon belül 55-65 °C-ra melegszik.
 
 ### Ez a természetes fertőtlenítés.
 
-Több napon át 55 °C felett tartva visszaszorulnak a kórokozók, a parazitapeték és a gyommagvak. A bomlás felgyorsul, mert a hőkedvelő baktériumok veszik át a munkát. De 70 °C felett már baj van: sérül a hasznos élet is, a kupac pedig könnyen kiszárad.
+Több napon át 55 °C felett tartva elpusztul a kórokozók, parazitapeték és gyommagvak nagy része. A bomlás felgyorsul, mert a hőkedvelő baktériumok veszik át a munkát. De 70 °C felett már baj van: sérül a hasznos élet is, a kupac pedig könnyen kiszárad.
 
 ### 50-60%. Ennyi nedvesség kell.
 
@@ -48,19 +48,19 @@ A komposztálás levegőigényes folyamat. Ha kap oxigént, hő, vízgőz, szén
 
 ### 180 nap. Ennyit hagyjuk dolgozni.
 
-Az aktív bomlás 6-8 hét. Utána jön a hosszú érlelés: 3-4 hónap pihenés, közben rendszeres forgatással. Ekkor alakulnak ki a huminanyagok, vagyis azok a stabil szerves anyagok, amelyek nem pár hétig, hanem évekig javítják a talajt.
+Az aktív bomlás 6-8 hét. Utána jön a hosszú érlelés: 3-4 hónap pihenés, közben rendszeres forgatással. Ekkor alakulnak ki a huminanyagok, vagyis azok a stabil szerves anyagok, amelyek nem pár hétig, hanem évekig javítják a talajt. Itt térül meg a türelem.
 
 ## Honnan jön a szar?
 
 Ez a másik nagy különbség, ne ugord át, mert fontos.
 
-A legtöbb kereskedelmi komposzt iparszerű állattartásból származik. Olyan hizlalótelepekről, ahol a marhák betonon állnak, antibiotikumot kapnak, és kukoricaalapú takarmányt esznek. A trágyájuk is ilyen lesz.
+A legtöbb kereskedelmi komposzt iparszerű hizlaldákból származik. Betonon álló marhák, antibiotikum a takarmányban, kukoricaalapú GMO-pellet a vályúban. Ilyen az életük, és ilyen a trágyájuk is.
 
 Az állat azt szarja, amit eszik. Egyszerű, mégsem szokott eszünkbe jutni, amikor komposztot veszünk.
 
-A mi angus és wagyu marháink a saját legelőinken nő fel. Füvet esznek. Ha be kell fejezni a hizlalást, saját bio gabonát kapnak. Antibiotikum nincs. Hormon nincs. GMO nincs.
+A mi angus és wagyu marháink a saját legelőinken nőnek fel. Füvet esznek. Ha be kell fejezni a hizlalást, saját bio gabonát kapnak. Antibiotikum nincs. Hormon nincs. GMO nincs.
 
-A dorper és racka anyajuhok és a bárányaik ugyanezeken a legelőkön járnak, váltott területeken. A csirkék, évszaktól függően 50-150 darab, szabadon mozognak a marhák és juhok között, és felcsipegetik, ami marad. 
+A dorper és racka anyajuhok a bárányaikkal ugyanitt járnak, váltott területen, ahogy a régi pásztorok csinálták. A csirkék, évszaktól függően 50-150 darab, szabadon mozognak köztük, és felcsipegetik, ami marad.
 
 Az egész körforgásban működik. A jószág trágyáz, a fű nő, a jószág legel, a maradék komposzttá érik, a komposzt pedig visszakerül a földbe. Minden területünk bio-tanúsított.
 
@@ -74,7 +74,7 @@ Ezért nem ugyanaz a komposzt, mint ami egy ipari hizlalótelepről jön. Más a
 
 ★★★★★ 5.0
 
-Fél éven át érlelt istállótrágya-komposzt a mezőtúri családi gazdaságunkból. Bio-tanúsított legelőkről, antibiotikum- és GMO-mentes kacsáktól és marháktól. Szabad ég alatt, rendszeresen forgatva.
+Fél év érlelés. Mezőtúri családi gazdaság. Kacsa- és marhatrágya, antibiotikum- és GMO-mentes állatoktól, bio-tanúsított legelőkről. Szabad ég alatt, rendszeres forgatással.
 
 Amit kapsz:
 
@@ -92,7 +92,7 @@ Amit kapsz:
 ## Kiszerelés és ár
 
 - 20 kg-os zsák: ELFOGYOTT
-- Nagy zsák / big bag: *ELFOGYOTT
+- Nagy zsák / big bag: ELFOGYOTT
 - Ömlesztve, m³-ben: *19.000 Ft / m³*
 
 
@@ -132,7 +132,7 @@ Komolyan. Mint az erdő ősszel, ahol a gombát szedjük. Ki gondolta volna, hog
 
 [Megrendelem](mailto:szarvasimarha@gmail.com?subject=Komposzt rendelés)
 
-📍 [Cím] | 📞 [Telefon] | 🕐 [Nyitvatartás]
+📍 5400 Mezőtúr, Felsőrészinyomás 105. | 📞 +36 39 4596 9764
 
 [image-1]:	assets/compost-thermometer.jpg
 [image-2]:	assets/compost-hero.webp
