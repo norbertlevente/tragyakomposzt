@@ -391,11 +391,57 @@ p:has(.hov),
               0 6px 16px -6px rgba(0, 0, 0, 0.18);
 }
 
-/* Narrow viewport: keep inline thumbs, hide popovers (no room beside text) */
+/* Narrow viewport: no room beside the text column.
+   Re-anchor popovers to the trigger span itself (not the paragraph),
+   shrink them, and let them open below the trigger — overlaying the
+   running text is fine here, that's the trade-off for small screens. */
 @media (hover: none), (max-width: 1024px) {
-  .hov-pop,
+  p:has(.hov),
+  .lead-line:has(.hov) {
+    position: static;
+  }
+
+  .hov {
+    position: relative;
+  }
+
+  .hov-pop {
+    left: 50%;
+    margin-left: 0;
+    top: calc(100% + 10px);
+    width: 180px;
+    transform: translateX(-50%) translateY(-6px) scale(0.95);
+  }
+
+  .hov:hover .hov-pop,
+  .hov:focus .hov-pop {
+    transform: translateX(-50%) translateY(0) scale(1);
+  }
+
   .hov-pop-left,
-  .hov-pop-right { display: none; }
+  .hov-pop-right {
+    top: calc(100% + 10px);
+    width: 140px;
+  }
+
+  .hov-pop-left {
+    right: 50%;
+    margin-right: 4px;
+    transform: translateX(0) translateY(-6px) scale(0.95);
+  }
+
+  .hov-pop-right {
+    left: 50%;
+    margin-left: 4px;
+    transform: translateX(0) translateY(-6px) scale(0.95);
+  }
+
+  .hov:hover .hov-pop-left,
+  .hov:focus .hov-pop-left,
+  .hov:hover .hov-pop-right,
+  .hov:focus .hov-pop-right {
+    transform: translateX(0) translateY(0) scale(1);
+  }
 }
 
 /* ---------- Closing ---------- */
