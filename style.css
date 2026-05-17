@@ -283,8 +283,15 @@ hr {
 .underline-red   { text-decoration-color: #d6334a; }
 
 /* ---------- Inline hover-image triggers (YC-style) ---------- */
-.hov {
+
+/* Paragraphs that contain a hover trigger become the positioning context,
+   so popovers can pop into the right (or left) margin of the text block. */
+p:has(.hov),
+.lead-line:has(.hov) {
   position: relative;
+}
+
+.hov {
   cursor: help;
   transition: text-decoration-color 0.15s ease;
 }
@@ -317,12 +324,14 @@ hr {
               0 4px 12px rgba(0, 0, 0, 0.20);
 }
 
-/* Full image popover — opens to the right of the text (not over it) */
+/* Full image popover — opens to the right of the text BLOCK (paragraph),
+   in the right margin. Never overlaps the running text. */
 .hov-pop {
   position: absolute;
-  left: calc(100% + 14px);
+  left: 100%;
+  margin-left: 1.25rem;
   top: 50%;
-  width: 260px;
+  width: 280px;
   pointer-events: none;
   opacity: 0;
   transform: translateY(-50%) translateX(-8px) scale(0.96);
@@ -361,8 +370,8 @@ hr {
               transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-.hov-pop-left  { right: calc(100% + 16px); transform: translate(10px, -50%) scale(0.96); }
-.hov-pop-right { left:  calc(100% + 16px); transform: translate(-10px, -50%) scale(0.96); }
+.hov-pop-left  { right: 100%; margin-right: 1.25rem; transform: translate(10px, -50%) scale(0.96); }
+.hov-pop-right { left:  100%; margin-left:  1.25rem; transform: translate(-10px, -50%) scale(0.96); }
 
 .hov:hover .hov-pop-left,
 .hov:focus .hov-pop-left,
